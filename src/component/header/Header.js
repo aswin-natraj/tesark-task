@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+<script src="https://kit.fontawesome.com/31e630ddae.js" crossorigin="anonymous"></script>
 
 const Header=()=> {
     return (
@@ -18,8 +19,8 @@ const Header=()=> {
             </div>
             <div className='login-menu'>
 <ul className='login-memu-list'>
-<li className='login-menu-list-item'><a href='#'>Dollar</a></li>
-<li className='login-menu-list-item'><a href='#'>English</a></li>
+<li className='login-menu-list-item'><a href='#'><i class="fas fa-dollar-sign"></i>Dollar</a></li>
+<li className='login-menu-list-item'><a href='#'><i class="fas fa-globe-asia"></i>English</a></li>
 <li className='login-menu-list-item active'><a href='#'>SIGN UP/IN</a></li>
 </ul>
             </div>

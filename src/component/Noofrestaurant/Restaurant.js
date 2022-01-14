@@ -12,7 +12,7 @@ const Restaurant=()=> {
                <li className='res-menu-list-item active1'><a href='#'>/ Feature item</a></li>
            </ul> 
            <div className='hom'>
-           <h2 className='hom1'>RESTAURANT IN {LOC}</h2><p className='nopeople'>/ {no}</p><p className='line'></p>
+           <h2 className='hom1'>RESTAURANT IN {LOC}</h2><p className='nopeople'>/ {no} RESTAURANTS</p><p className='line'></p>
            </div>
         </div>
     )
