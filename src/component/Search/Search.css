@@ -12,6 +12,7 @@
   width: 20%;
   padding: 7px;
   border: solid 1px gray;
+  outline: none;
 }
 .cuisine-selector {
   padding: 6.8px;

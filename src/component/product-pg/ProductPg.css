@@ -90,6 +90,8 @@
 .more-page {
   display: flex;
   padding-top: 20px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgb(233, 231, 231);
 }
 .page-no {
   list-style-type: none;

@@ -10,6 +10,7 @@ const Filter=()=> {
 <h4 className='filter-text'>FILTER YOUR RESULT</h4><p className='line'></p>
 </div>
 <p className='price-text'>PRICE RANGE</p>
+
             </div>
 <ProductPg/>
         </div>

@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.footer-container {
+  display: grid;
+  grid-template-areas: "describe sub-details";
+  grid-template-columns: 40% 60%;
+  background-color: rgba(73, 51, 53, 255);
+}
+.footer-describe {
+  grid-area: describe;
+  padding: 200px;
+  padding-top: 40px;
+  padding-left: 23px;
+  font-size: 13px;
+  color: rgb(182, 179, 179);
+}
+.footer-sub-detail {
+  grid-area: sub-details;
+}
+.footer-describe-head {
+  font-size: 20px;
+  color: rgb(182, 179, 179);
+}
+.sub {
+  display: flex;
+  border-bottom: 1px solid rgb(182, 179, 179);
+  width: 80%;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.sub-search {
+  border: none;
+  background-color: rgba(73, 51, 53, 255);
+  width: 500px;
+  outline: none;
+  -webkit-appearance: none;
+  font-size: 15px;
+}
+.sutext {
+  padding-left: 13px;
+  color: rgb(182, 179, 179);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-sub-main {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 140px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.company-list-item {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.company-list-item a {
+  text-decoration: none;
+  color: rgb(182, 179, 179);
+}
+.active11 {
+  padding-bottom: 20px;
+}
+.semore {
+  color: rgb(182, 179, 179);
+}
