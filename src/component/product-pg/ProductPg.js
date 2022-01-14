@@ -1,12 +1,15 @@
-import React from 'react'
+import React ,{useState} from 'react'
 import './ProductPg.css'
 import Datas from "../../Data.json"
 
-const ProductPg=()=> {
+const ProductPg=(props)=> { 
+    const [searchTerm , setsearchTerm]= useState('')
     return (
         <div className='container6'>
+
            <div className='product'>
 <ul className='product-list'>
+<input className='searchbox' type='search' placeholder={props.placeholder}  onChange={event=>{setsearchTerm(event.target.value)}}/>
     <li className='product-list-item active5'><a href='#'>Sort By</a></li>
     <select  className='product-list-item active3'>
         <option className='offer' selected="">OFFER</option>
@@ -22,10 +25,17 @@ const ProductPg=()=> {
     <li className='product-list-item'><a href='#'>LOCATION</a></li>
     <i class="fas fa-align-justify"></i><i class="fas fa-th"></i>
 </ul>
+ 
 <div className='posts'>
-{Datas.map((postMessage)=>{
+{Datas.filter((val)=>{
+    if(searchTerm == ""){
+        return val
+    } else if(val.restaurantName.toLowerCase().includes(searchTerm.toLowerCase())){
+        return val
+    }
+}).map((postMessage,key)=>{
     return(
-        <div className='product-main-container'>
+        <div className='product-main-container' key={key}>
         <div className='product-container'>
         <div>
 <img  className='pr-image' src={postMessage.image}/>

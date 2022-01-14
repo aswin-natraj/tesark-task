@@ -37,10 +37,6 @@ const marks = [
     label: '5',
   },
 
-  {
-    value: 100,
-    label: '100$',
-  },
 ];
 
 
