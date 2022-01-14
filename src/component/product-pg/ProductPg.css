@@ -2,12 +2,138 @@
   margin: 0%;
   padding: 0%;
 }
-.product {
-  grid-area: product;
+.product-list {
+  display: flex;
+  border-top: 1.5px solid rgb(233, 231, 231);
+  border-bottom: 1.5px solid rgb(233, 231, 231);
 }
-.filter {
-  grid-area: filter;
+.product-list-item {
+  list-style-type: none;
+  padding: 5px;
 }
-.container5 {
-  display: grid;
+.product-list-item a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 12.6px;
+  color: gray;
+}
+.active3 {
+  border: none;
+  font-size: 12px;
+  color: gray;
+}
+.active5 a {
+  background-color: rgb(204, 67, 67);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 2px;
+}
+.product-container {
+  display: flex;
+  padding: 13px;
+}
+.fa-th {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: gray;
+}
+.fa-align-justify {
+  display: flex;
+  align-items: center;
+  padding-left: 230px;
+  color: rgb(204, 67, 67);
+}
+.pr-image {
+  width: 200px;
+  height: 130px;
+  border-radius: 3px;
+}
+.product-details {
+  padding-left: 15px;
+}
+.product-main-container {
+  display: flex;
+  border-bottom: 1px solid rgb(233, 231, 231);
+  border-top: 1px solid rgb(233, 231, 231);
+}
+.review {
+  font-size: 12px;
+  padding-left: 13px;
+  padding-bottom: 50px;
+}
+.avg-price {
+  font-size: 12px;
+  color: gray;
+  padding-left: 5px;
+}
+.pricepd {
+  padding-left: 5px;
+  font-size: 18px;
+  color: rgb(204, 67, 67);
+}
+.detail-btn {
+  background-color: rgb(204, 67, 67);
+  color: white;
+  border: 1px solid rgb(204, 67, 67);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.pages {
+  display: flex;
+}
+.more-page {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid rgb(233, 231, 231);
+}
+.page-no {
+  list-style-type: none;
+}
+.page-no a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.nopgs {
+  padding-right: 20px;
+}
+.active6 a {
+  background-color: rgb(204, 67, 67);
+  color: white;
+}
+.restaurantname {
+  font-family: fantasy;
+  color: gray;
+}
+.location {
+  color: rgb(179, 177, 177);
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.descrip {
+  color: rgb(179, 177, 177);
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.off {
+  color: rgb(204, 67, 67);
+  font-size: 13px;
+  padding-bottom: 20px;
+}
+.fa-map-marker-alt {
+  color: gray;
+}
+.rating-container {
+  padding-left: 200px;
 }

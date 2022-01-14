@@ -1,3 +1,78 @@
-{
-    
-}
+
+    [
+        {
+"userid":1,
+"restaurantName":"Hotel ARS",
+"location":"ARS Hotel, Oppsite",
+"description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
+"cuisine":"ITALIAN SEAFOOD BISTRO",
+"offer":"-30% off the 'a la carte' menu",
+"image":"https://th.bing.com/th/id/OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+"review":27,
+"minprice":65,
+"maxprice":78
+        },
+        {
+            "userid":2,
+            "restaurantName":"The Smokun'Pug",
+            "location":"ARS Hotel, Op",
+            "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
+            "cuisine":"ITALIAN SEAFOOD BISTRO",
+            "offer":"-30% off the 'a la carte' menu",
+            "image":"https://th.bing.com/th/id/OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "review":43,
+            "minprice":65,
+"maxprice":78
+        },
+        {
+            "userid":3,
+            "restaurantName":"The Smokun'Pug",
+            "location":"ARS Hotel, Op",
+            "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
+            "cuisine":"ITALIAN SEAFOOD BISTRO",
+            "offer":"-30% off the 'a la carte' menu",
+            "image":"https://th.bing.com/th/id/OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "review":65,
+            "minprice":65,
+"maxprice":78
+        },
+        {
+            "userid":4,
+            "restaurantName":"J'AIME by Jean-Micheal Lorain",
+            "location":"ARS Hotel, Op",
+            "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
+            "cuisine":"ITALIAN SEAFOOD BISTRO",
+            "offer":"-30% off the 'a la carte' menu",
+            "image":"https://th.bing.com/th/id/OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "review":143,
+            "minprice":65,
+"maxprice":78
+        },
+
+        {
+            "userid":5,
+            "restaurantName":"J'AIME by Jean-Micheal Lorain",
+            "location":"ARS Hotel, Op",
+            "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
+            "cuisine":"ITALIAN SEAFOOD BISTRO",
+            "offer":"-30% off the 'a la carte' menu",
+            "image":"https://th.bing.com/th/id/OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "review":65,
+            "minprice":65,
+"maxprice":78
+        },
+        {
+            "userid":6,
+            "restaurantName":"J'AIME by Jean-Micheal Lorain",
+            "location":"ARS Hotel, Op",
+            "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
+            "cuisine":"ITALIAN SEAFOOD BISTRO",
+            "offer":"-30% off the 'a la carte' menu",
+            "image":"https://th.bing.com/th/id/OIP.3V2fvdA6O0fSG6qGMyMeZwHaEo?w=255&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+            "review":65,
+            "minprice":65,
+"maxprice":78
+        
+        }
+
+    ]
