@@ -1,11 +1,11 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './Search.css'
 
 const Search=(props)=> {
+   
     return (
         <div className='container1'>
             <form>
-                <input className='searchbox' type={Search} placeholder={props.placeholder} />
                 <select className='cuisine-selector' placeholder='cuisine'>
                     <option selected="">Cuisine Type</option>
                     <option>Any</option>

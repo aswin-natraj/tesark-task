@@ -64,3 +64,24 @@
 .semore {
   color: rgb(182, 179, 179);
 }
+.footer-media {
+  border-top: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(73, 51, 53, 255);
+  padding: 25px;
+}
+.social-media > i {
+  color: gray;
+  margin: 10px;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 50px;
+}
+.join {
+  color: gray;
+}
+.copyrights {
+  color: gray;
+}
