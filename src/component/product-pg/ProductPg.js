@@ -30,7 +30,7 @@ const ProductPg=(props)=> {
 {Datas.filter((val)=>{
     if(searchTerm == ""){
         return val
-    } else if(val.restaurantName.toLowerCase().includes(searchTerm.toLowerCase())){
+    } else if(val.restaurantName.toLowerCase().includes(searchTerm.toLowerCase())|| val.location.toLowerCase().includes(searchTerm.toLowerCase())){
         return val
     }
 }).map((postMessage,key)=>{

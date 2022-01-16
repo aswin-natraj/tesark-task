@@ -15,7 +15,7 @@
         {
             "userid":2,
             "restaurantName":"The Smokun'Pug",
-            "location":"ARS Hotel, Op",
+            "location":"no 9/1, 5th Cross Street, Sivanthipatti Road, Maharajanagar, Palayamkottai, Tirunelveli, Tirunelveli Locality, Tirunelveli, Tamil Nadu",
             "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
             "cuisine":"ITALIAN SEAFOOD BISTRO",
             "offer":"-30% off the 'a la carte' menu",
@@ -26,8 +26,8 @@
         },
         {
             "userid":3,
-            "restaurantName":"The Smokun'Pug",
-            "location":"ARS Hotel, Op",
+            "restaurantName":"Palmshore",
+            "location":"108, Santhome High Road, Foreshore Estate, Mullima Nagar, Mandavelipakkam, Raja Annamalaipuram, Chennai, Tamil Nadu 600028",
             "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
             "cuisine":"ITALIAN SEAFOOD BISTRO",
             "offer":"-30% off the 'a la carte' menu",
@@ -39,7 +39,7 @@
         {
             "userid":4,
             "restaurantName":"J'AIME by Jean-Micheal Lorain",
-            "location":"ARS Hotel, Op",
+            "location":"34, Othavadai Street, Fisherman's Colony, Near Indian Overseas Bank, Mahabalipuram, Chennai, Tamil Nadu 603104",
             "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
             "cuisine":"ITALIAN SEAFOOD BISTRO",
             "offer":"-30% off the 'a la carte' menu",
@@ -51,8 +51,8 @@
 
         {
             "userid":5,
-            "restaurantName":"J'AIME by Jean-Micheal Lorain",
-            "location":"ARS Hotel, Op",
+            "restaurantName":"McDonald's",
+            "location":"S No 330/12, Grand Arcade Srijan, Dr Seetharaman Nagar, Velachery, Chennai, Tamil Nadu 600042",
             "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
             "cuisine":"ITALIAN SEAFOOD BISTRO",
             "offer":"-30% off the 'a la carte' menu",
@@ -63,8 +63,8 @@
         },
         {
             "userid":6,
-            "restaurantName":"J'AIME by Jean-Micheal Lorain",
-            "location":"ARS Hotel, Op",
+            "restaurantName":"The Marina",
+            "location":"39, College Road, Opposite State Bank Of India, Nungambakkam, Chennai, Tamil Nadu 600006",
             "description":"A hotel is an establishment that provides paid lodging on a short-term basis.",
             "cuisine":"ITALIAN SEAFOOD BISTRO",
             "offer":"-30% off the 'a la carte' menu",
