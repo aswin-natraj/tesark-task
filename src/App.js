@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
   <Header />
-  <Search placeholder='Where would you like to eat?' />
+  <Search  />
   <Restaurant/>
   <Filter/>
   <Footerimage/>
