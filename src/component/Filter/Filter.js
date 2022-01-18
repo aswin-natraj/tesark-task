@@ -1,12 +1,23 @@
-import { Input } from "@material-ui/core";
 import React from "react";
 import ProductPg from "../product-pg/ProductPg";
 import Pricerange from "../slider/Pricerange";
 import Ratingrange from "../slider/Ratingrange";
-
+import Checkbox from "./checkbox/checkbox";
 import "./filter.css";
 
-const Filter = () => {
+const location1 = "Any";
+const location2 = "Shared outdoor pool";
+const location3 = "Hottub/Jacuzzi";
+const location4 = "Saterllite or Cable TV";
+const location5 = "Parling";
+
+const cusinetype1 = "Any";
+const cusinetype2 = "American";
+const cusinetype3 = "Italian";
+const cusinetype4 = "French";
+const cusinetype5 = "indochinese";
+
+const Filter = (props) => {
   return (
     <div className="container5">
       <div className="filter">
@@ -19,54 +30,24 @@ const Filter = () => {
         <p className="price-text">RATING RANGE</p>
         <Ratingrange />
         <p className="price-text">CUISINE TYPE</p>
-        <form className="cui-type">
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" s /> Any
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> American
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> Italian
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> French
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> Indochinese
-          </p>
-        </form>
+        <Checkbox
+          check1={cusinetype1}
+          check2={cusinetype2}
+          check3={cusinetype3}
+          check4={cusinetype4}
+          check5={cusinetype5}
+        />
         <p className="showmore">
           <a href="">show more</a>
         </p>
         <p className="price-text">LOCATION</p>
-        <form className="cui-type">
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" s /> Any
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> Shared outdoor pool
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> Hot tub/Jacuzzi
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> Saterllite or Cable TV
-          </p>
-          <p className="cui-type-item">
-            {" "}
-            <input type="checkbox" /> Parking
-          </p>
-        </form>
+        <Checkbox
+          check1={location1}
+          check2={location2}
+          check3={location3}
+          check4={location4}
+          check5={location5}
+        />
         <p className="showmore">
           <a href="">show more</a>
         </p>
